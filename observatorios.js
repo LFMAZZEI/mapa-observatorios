@@ -1,0 +1,1 @@
+// conteúdo fictício de data/observatorios.js
