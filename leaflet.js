@@ -1,1 +1,1 @@
-// conteúdo fictício de leaflet.js
+// Biblioteca Leaflet real deve ser incluída aqui.

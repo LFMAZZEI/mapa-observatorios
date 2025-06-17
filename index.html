@@ -1,1 +1,35 @@
-// conteúdo fictício de index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Interativo dos Observatórios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo-fiocruz.png" alt="Fiocruz" style="height: 50px;" />
+    <h1>Mapa Interativo dos Observatórios</h1>
+    <p>ENSP / FIOCRUZ – Políticas Públicas de Saúde</p>
+  </header>
+
+  <div id="filtro">
+    <label for="pais">Filtrar por país:</label>
+    <select id="pais">
+      <option value="Todos">Todos</option>
+    </select>
+    <button onclick="baixarPlanilha()">Baixar planilha</button>
+  </div>
+
+  <div id="map" style="height: 80vh;"></div>
+
+  <footer>
+    <p>© ENSP / Fiocruz</p>
+  </footer>
+
+  <script src="leaflet.js"></script>
+  <script src="observatorios.js"></script>
+  <script src="functions.js"></script>
+</body>
+</html>
